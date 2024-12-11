@@ -1,0 +1,58 @@
+<resources>
+<string name="about_us">
+
+Hello my name is Andrea. I am passionate to create beautiful and practical application. I had 4 years of experience with Native Android App Development Kotlin/Java. One of my app was an Android part of reporting system, which is now widely used for one of the Police Force Division at one of the country.
+\nSince 2024, I also working on Kotlin Multiplatform, and still eagerly looking for more Kotlin Multiplatform projects.
+\nIn my spare time, I love to spend time with my family and baking delicious bread.</string>
+<string name="experience">
+
+Freelance Android Developer
+Nov 2019 - Present
+Working in various project across the world as Junior Android Developer (part of Remote Team) or Main Developer (sole Developer).
+
+Mobile Developer
+Lacak.io (Nov 2021 - Aug 2023)
+* Multiple projects/apps
+* Working as Main Android Developer on various projects for the company.
+* Oversee, distribute and reviewing task for other Mobile Developer.
+* Planning and create app structure as per design
+* Debug and fixing bug
+* Deployed application to Google Play Store (if requested)
+
+Junior Android Developer
+Truck Heavy (Jul 2019 - Dec 2019)
+Assisting Senior Developer on Android application development.
+Tech stack : Android Studio, Java, Firebase Realtime Database, Firebase Storage
+</string>
+<string name="projects">
+
+KMP Compose Weather
+Jun 2024 - Jul 2024
+This is a Weather App build with Kotlin Multiplatform project targeting Android, iOS, Desktop.
+Tech stack :
+🧩 Compose Multiplatform; for shared UI
+🌐 Ktor; for networking
+🗃️ KStore; for storage
+📦 Kotlinx Serialization; for content negotiation
+🚏 Decompose + Router; for navigation
+🧪 Molecule; for modeling state
+🔖 KMLogging; for logging
+📍 Google Geolocation; for Geolocation
+🗺️ Google Geocoding; for Parsing address from coordinates
+
+Virtual Operation
+Mar 2023 - Jul 2023
+Virtual Operation is project to create an integrated command system that can trace device, asset and vehicle position, usage, combined with fast and easy reporting and assigning task system.
+
+Mobile application feature such reporting data using text to speech command, live teleconference, live assignment data, clockin-clockout, backend API integration
+
+Project Scope :
+Main Developer (Updating application feature and UI, working with Front End, Backend Team)
+- Updating app UI based on design/FIGMA
+- Pull and save data using available API Backend
+- Create app database system/architecture
+- Debug and fix all bug
+
+Tech : Kotlin, Jetpack Compose, MVVM, Coroutine, ROOM, Hilt, Retrofit, WorkManager, 3rd party libraries (Accompanist, Coil, AndroidUpload, Google Analytics, Google Maps, Agora, RabbitMQ)
+</string>
+</resources>

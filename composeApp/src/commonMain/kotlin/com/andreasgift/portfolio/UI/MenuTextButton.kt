@@ -17,7 +17,7 @@ import com.andreasgift.portfolio.grayText
 import com.andreasgift.portfolio.silverTextTitle
 
 @Composable
-fun MenuTextButton() {
+fun MenuTextButton(callback:(Int) -> Unit) {
     val focusTextStyle = MaterialTheme.typography.subtitle1.copy(silverTextTitle)
     val unfocusTextStyle = MaterialTheme.typography.body1.copy(color = grayText)
     val textFocus = remember { mutableStateOf(0) }
@@ -25,19 +25,25 @@ fun MenuTextButton() {
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text("- About",
             style = if(textFocus.value == 0 ) focusTextStyle else unfocusTextStyle,
-            modifier = Modifier.clickable { textFocus.value = 0 }
-                .hoverableExt { textFocus.value = 0 })
+            modifier = Modifier.clickable { textFocus.value = 0
+            callback(0)}
+                .hoverableExt { textFocus.value = 0
+                callback(0)})
         Text(
             "- Experience",
             style = if(textFocus.value == 1 ) focusTextStyle else unfocusTextStyle,
-            modifier = Modifier.clickable { textFocus.value = 1 }
-                .hoverableExt { textFocus.value = 1 }
+            modifier = Modifier.clickable { textFocus.value = 1
+            callback(1)}
+                .hoverableExt { textFocus.value = 1
+                callback(1)}
         )
         Text(
             "- Projects",
             style = if(textFocus.value == 2 ) focusTextStyle else unfocusTextStyle,
-            modifier = Modifier.clickable { textFocus.value = 2 }
-                .hoverableExt { textFocus.value = 2 }
+            modifier = Modifier.clickable { textFocus.value = 2
+            callback(2)}
+                .hoverableExt { textFocus.value = 2
+                callback(2)}
         )
     }
 }
