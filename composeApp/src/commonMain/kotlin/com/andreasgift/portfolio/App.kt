@@ -73,7 +73,7 @@ fun MenuColumn(modifier: Modifier, currentContent:(Int)-> Unit){
         verticalArrangement = Arrangement.spacedBy(20.dp)) {
         DescriptionText()
         MenuTextButton(currentContent)
-        IconButtons({})
+        IconButtons()
     }
 }
 
